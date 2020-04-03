@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Chestionare_Auto.exe" version="1.0.0.0" publicKeyToken="c283afe5a388f4fd" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Chestionare_Auto" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Chestionare_Auto.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BouncyCastle.Crypto.dll" size="2453504">
+      <assemblyIdentity name="BouncyCastle.Crypto" version="1.8.3.0" publicKeyToken="0E99375E54769942" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>SikSNsUBe/37MPrUw9tNBhTDYsS1NAnGELEtSD17JuY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Chestionare_Auto.exe" size="79328">
+      <assemblyIdentity name="Chestionare_Auto" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>cFo059Iwop35hsHrZH+ISFyTNKGSGvL5QZv85soslgs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Google.Protobuf.dll" size="298496">
+      <assemblyIdentity name="Google.Protobuf" version="3.6.1.0" publicKeyToken="A7D26565BAC4D604" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tmCHIa/sZfxfbRML4V98ONw3aJn73tQolsd5EaiejRM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="770048">
+      <assemblyIdentity name="MySql.Data" version="8.0.18.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>p2W1N/jvKtfTtkCJwl7oqYenqusuYafmei73Wtm/3lg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Renci.SshNet.dll" size="422912">
+      <assemblyIdentity name="Renci.SshNet" version="2016.1.0.0" publicKeyToken="1CEE9F8BDE3DB106" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9jFe0UZDj3cCAzaBBD+P6WkO05oqvJoZIkZCSUSjono=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Chestionare_Auto.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-FBI8GQ2\crist" issuerKeyHash="e43539c976b11dfc39ba97167272c0fb598f13d7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Mhv3GZTAMDmj8ujVbInI0BK2+/ESD+SO8KAC/eu7riM=</DigestValue></Reference></SignedInfo><SignatureValue>ZguuciLHMvyxJAwIe4sAZd8qUvWv+7Fc/WZlXzqW58ZEHrJcYxObx2s8dYHDDxYlB/5MVjg2UhBIwc0Qfs0U6Sd+IFs5JHb4E/i7fNfJeDWh0VqWF9GApRqs0wuHle7LCbf7RWEBIhOcW0Y33gQN6QS0ExnLGIzIpWA6YSIEtsU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vl0IQsRHPl4VV4WBa9lBUW1SR++aOpUPPjOTuBS35YVN9lOrx2+JKNWliiF4QFjlyhhQyLBAAP7XMwH7J7e1xjpGSNDskz459K1K6/gxyV5bkaRbQZuzn1q58Q2b2ZgTU6XSabFrMaCU4gAULI3Suy1t/YVL/eGW5HChJELw0z0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="23aebbebfd02a0f08ee40f12f1fbb612d0c8896cd5e8f2a33930c09419f71b32" Description="" Url=""><as:assemblyIdentity name="Chestionare_Auto.exe" version="1.0.0.0" publicKeyToken="c283afe5a388f4fd" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-FBI8GQ2\crist</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>OC8cC3Mb68zkyUSNyZVixSXjuojtGbXfOoBcG52IUz8=</DigestValue></Reference></SignedInfo><SignatureValue>TOHzPNDR+gUObeXH7zwEjEWtouuOaMb1/WxlDrmesMsABU9QZHoWEWdZiFqmCJDl9NMa0lydYQT8Eie+rPFRryBZbPg78BHiRHT43N5QNuBQ//j6XAcspThPuJKsypUOINMwuYATkk2KOtQXkx203BmF0mURUoAt1kHhF01f7Os=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vl0IQsRHPl4VV4WBa9lBUW1SR++aOpUPPjOTuBS35YVN9lOrx2+JKNWliiF4QFjlyhhQyLBAAP7XMwH7J7e1xjpGSNDskz459K1K6/gxyV5bkaRbQZuzn1q58Q2b2ZgTU6XSabFrMaCU4gAULI3Suy1t/YVL/eGW5HChJELw0z0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQVXdTwCgwD7BGTX0W5W7Q0DANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEYAQgBJADgARwBRADIAXABjAHIAaQBzAHQwHhcNMjAwNDAzMjA0OTM3WhcNMjEwNDA0MDI0OTM3WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEYAQgBJADgARwBRADIAXABjAHIAaQBzAHQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL5dCELERz5eFVeFgWvZQVFtUkfvmjqVDz4zk7gUt+WFTfZTq8dviSjVpYoheEBY5coYUMiwQAD+1zMB+ye3tcY6RkjQ7JM+OfStSuv4McleW5GkW0Gbs59aufENm9mYE1Ol0mmxazGglOIAFCyN0rstbf2FS/3hluRwoSRC8NM9AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAmwHWIATpU8tYAkyKE2PBD928wBhMno1tkdcl3sl2qMQbm+sBpugXck0I7HqqpDDgGFtl6Ikkn3VdZ/+zp4c//TiNbrRsghOfQRH5dYdycIi9fJO6Yue/V1QJdXzkiHYb3bS12X9hgCRa07NfOwoSZQM5/f72rfwPUmYWabnOCxo=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
