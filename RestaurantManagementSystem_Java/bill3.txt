@@ -1,0 +1,8 @@
+Order number: 3         Thu May 07 00:14:47 EEST 2020
+
+Limonada kivi&ananas   x 2  7.2   14.4
+menta   x 1  0.6   0.6
+Apa Dorna   x 2  3.5   7.0
+cola   x 3  5.5   16.5
+
+Total: 38.5
